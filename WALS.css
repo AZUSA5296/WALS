@@ -2,13 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fafafa;
+  color: #000000;
   font-family: serif, "MS Pゴシック", sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
+
+.heading {
+  font-family: "Franklin Gothic Medium";
+  font-size: 32px;
+}
+
+/*---header---*/
 
 header {
   background-color: #ec715f;
@@ -52,6 +60,8 @@ nav {
   margin: auto 30px;
 }
 
+/*---main-visual---*/
+
 .main-visual {
   width: 100%;
   height: 650px;
@@ -80,6 +90,48 @@ nav {
   color: #fafafa;
 }
 
+/*---portfolio---*/
+
+.portfolio {
+  width: 920px;
+  display: flex;
+  justify-content: center; /* 要素の横並び・中央寄せ */
+  margin: 0 auto; /* 要素の中央揃え */
+  padding: 90px 0;
+}
+
+/*---feature---*/
+
+.feature {
+  width: 980px;
+  display: flex;
+  justify-content: center; /* 要素の横並び・中央寄せ */
+  margin: 0 auto; /* 要素の中央揃え */
+  padding: 90px 0;
+}
+
+/*---profile---*/
+
+.profile {
+  width: 1024px;
+  display: flex;
+  justify-content: center; /* 要素の横並び・中央寄せ */
+  margin: 0 auto; /* 要素の中央揃え */
+  padding: 90px 0;
+}
+
+/*---contact---*/
+
+.contact {
+  width: 800px;
+  display: flex;
+  justify-content: center; /* 要素の横並び・中央寄せ */
+  margin: 0 auto; /* 要素の中央揃え */
+  padding: 90px 0;
+}
+
+/*---footer---*/
+
 footer {
   width: 100%;
   height: 60px;
@@ -90,4 +142,5 @@ footer {
 
 .footer-text {
   font-size: 16px;
+  color: white;
 }
