@@ -1,9 +1,14 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #000000;
   font-family: serif, "MS Pゴシック", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -11,9 +16,23 @@ a {
   color: white;
 }
 
+p {
+  margin: 30px, auto;
+  font-size: 16px;
+}
+
 .heading {
   font-family: "Franklin Gothic Medium";
   font-size: 32px;
+  margin: 0;
+}
+
+hr {
+  border: solid;
+  width: 70px;
+  height: 3px;
+  color: #ec715f;
+  margin: 8px, 0, 0, 0;
 }
 
 /*---header---*/
