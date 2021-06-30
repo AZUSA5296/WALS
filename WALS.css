@@ -213,6 +213,11 @@ nav {
   text-align: left;
 }
 
+.strength {
+  font-size: 20px;
+  margin: 10px;
+}
+
 /*---profile---*/
 
 #profile {
@@ -226,12 +231,34 @@ nav {
 #profile-contents {
   width: 1024px;
   height: auto;
-  margin-bottom: 90px;
+  margin-top: 30px;
+  display: flex;
 }
 
-.strength {
+.profile-box {
+  width: 512px;
+  height: auto;
+}
+
+.profile-box img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profile-box h2 {
   font-size: 20px;
-  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.profile-text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.profile-box p {
+  font-size: 16px;
 }
 
 /*---contact---*/
