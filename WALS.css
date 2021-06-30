@@ -1,8 +1,13 @@
 * {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   color: #000000;
   font-family: serif, "MS Pゴシック", sans-serif;
+}
+
+.contener1 {
+  background-color: #eceff1;
 }
 
 section {
@@ -17,8 +22,8 @@ a {
 }
 
 p {
-  margin: 30px, auto;
   font-size: 16px;
+  margin: 0;
 }
 
 .heading {
@@ -27,12 +32,20 @@ p {
   margin: 0;
 }
 
+.line {
+  margin-top: 8px;
+}
+
 hr {
   border: solid;
   width: 70px;
   height: 3px;
   color: #ec715f;
-  margin: 8px, 0, 0, 0;
+  margin: 0;
+}
+
+.describe {
+  margin: 30px;
 }
 
 /*---header---*/
@@ -69,6 +82,7 @@ nav {
 
 .nav-list {
   line-height: 70px;
+  margin: 0;
   text-align: right;
 }
 
@@ -111,27 +125,79 @@ nav {
 
 /*---portfolio---*/
 
-.portfolio {
+#portfolio {
   width: 920px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto; /* 要素の中央揃え */
   padding: 90px 0;
+  background-color: #eceff1;
+}
+
+#portfolio-contents {
+  width: 920px;
+  height: 510px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-box {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-box:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-box:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-box:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+
+.portfolio-box:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  margin-right: 10px;
+}
+
+.portfolio-box:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin-right: 10px;
+}
+
+.portfolio-box:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
 }
 
 /*---feature---*/
 
-.feature {
+#feature {
   width: 980px;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 90px;
   display: flex;
-  justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 0 auto; /* 要素の中央揃え */
-  padding: 90px 0;
+}
+
+#feature-contents {
+  width: 980px;
+  height: 510px;
+  margin-bottom: 90px;
 }
 
 /*---profile---*/
 
-.profile {
+#profile {
   width: 1024px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
@@ -139,14 +205,26 @@ nav {
   padding: 90px 0;
 }
 
+#profile-contents {
+  width: 1024px;
+  height: auto;
+  margin-bottom: 90px;
+}
+
 /*---contact---*/
 
-.contact {
+#contact {
   width: 800px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto; /* 要素の中央揃え */
   padding: 90px 0;
+}
+
+#contact-contents {
+  width: 800px;
+  height: auto;
+  margin-bottom: 90px;
 }
 
 /*---footer---*/
