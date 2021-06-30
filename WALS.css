@@ -16,11 +16,6 @@ section {
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 p {
   font-size: 16px;
   margin: 0;
@@ -60,6 +55,11 @@ header {
   width: 100%;
   height: 70px;
   text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
 }
 
 .header_flex {
@@ -238,6 +238,7 @@ nav {
 .profile-box {
   width: 512px;
   height: auto;
+  text-align: center;
 }
 
 .profile-box img {
@@ -274,7 +275,32 @@ nav {
 #contact-contents {
   width: 800px;
   height: auto;
-  margin-bottom: 90px;
+  display: flex;
+}
+
+.contact-box {
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+
+.contact-text {
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-box h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#tell {
+  margin-top: 20px;
+}
+
+.contact-text i {
+  font-size: 50px;
+  margin-right: 20px;
 }
 
 /*---footer---*/
